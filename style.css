@@ -18,12 +18,14 @@
     padding: 216px 150px 0px 740px;
     margin-bottom: 20px;
 }
+
 .first-section p {
     color: var(--Dark-02, #444343);
     font-size: 18px;
     padding: 0px 150px 0px 740px;
     margin-bottom: 30px;
 }
+
 .first-section button {
     color: white;
     background: #FD6E0A;
@@ -34,4 +36,144 @@
     border-radius: 5px;
     margin-bottom: 100px;
     margin-right: 150px;
+}
+
+.main-first-div {
+    display: flex;
+    margin: 140px 190px;
+}
+
+.first-description h1 {
+    margin-top: 300px;
+    margin-left: 40px;
+    margin-right: 80px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.first-description p,
+ul {
+    margin: 20px 0px 15px 40px;
+    list-style-type: square;
+}
+
+.second-section-div {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.second-section-div2 {
+    display: flex;
+    margin: 50px 170px 130px 180px;
+    gap: 50px;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title {
+    color: var(--Dark-03, #737272);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.background-img {
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    border-radius: 8px;
+    background-size: cover;
+    height: 300px;
+    margin: 0px 170px 130px 180px;
+}
+
+.background-img h1 {
+    padding: 60px 65px 20px 65px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 300px;
+    color: white;
+}
+
+.background-img button {
+    color: #FD6E0A;
+    background: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border: 2px solid #fdfdfd;
+    border-radius: 5px;
+    margin-left: 65px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 500px;
+}
+
+footer section {
+    color: white;
+    display: flex;
+    margin: 130px 170px 130px 180px;
+}
+
+.footer-div1 {
+    width: 500px;
+    margin-right: 200px;
+}
+
+.footer-div1 h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-div1 p {
+    margin-top: 20px;
+
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+footer section h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+footer section .email{
+    padding: 20px 100px 20px 30px;
+    color: #FD6E0A;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer section button{
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #FD6E0A;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+}
+footer section button:hover{
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
 }
